@@ -2,8 +2,8 @@
 Project yang sama cuman bahasa doang yg beda, this use PHP
 
 ## Installation
-- Import db nya dulu, **smkindog_reborn.sql** | udah taulah cara import mah simple
-nb: Untuk import Database, import table nya satu satu, jangan sekaligus. karna ada Constraint/Relasi Antar Table.. jdi import masternya dulu, kaya siswa,guru,kelas, baru yg trx kaya mapel_guru, kelas_siswa, baru deh yg terkahir JADWAL,. Jadwal Terakhir.
+- Import db nya dulu, **smkindog_reborn.sql** | udah taulah cara import mah simple |
+Untuk import Database, import table nya satu satu, jangan sekaligus. karna ada Constraint/Relasi Antar Table.. jdi import masternya dulu, kaya siswa,guru,kelas, baru yg trx kaya mapel_guru, kelas_siswa, baru deh yg terkahir TABLE JADWAL,. ini akhir bgt, karna perlu relasi dari mapel_guru sama kelas_siswa,, jdi harus trx nya
 - Atur koneksi di bagian **lib.php** sesuain aja bagian dbhost, dbuser, dbpass, dbname, dbport | ada di folder config/lib.php
 - **TEST DRIVE**
 
